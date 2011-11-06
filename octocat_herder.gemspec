@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{octocat_herder}
-  s.version = "0.1.2"
+  s.name = "octocat_herder"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{Jacob Helwig}]
-  s.date = %q{2011-10-17}
-  s.description = %q{This gem provides Ruby bindings to the v3 GitHub API}
-  s.email = %q{jacob@technosorcery.net}
+  s.authors = ["Jacob Helwig"]
+  s.date = "2011-11-06"
+  s.description = "This gem provides Ruby bindings to the v3 GitHub API"
+  s.email = "jacob@technosorcery.net"
   s.extra_rdoc_files = [
     "LICENSE",
     "README.markdown"
@@ -38,11 +38,11 @@ Gem::Specification.new do |s|
     "spec/octocat_herder_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/jhelwig/octocat_herder}
-  s.licenses = [%q{BSD}]
-  s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.6}
-  s.summary = %q{An interface to the v3 GitHub API}
+  s.homepage = "http://github.com/jhelwig/octocat_herder"
+  s.licenses = ["BSD"]
+  s.require_paths = ["lib"]
+  s.rubygems_version = "1.8.10"
+  s.summary = "An interface to the v3 GitHub API"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
