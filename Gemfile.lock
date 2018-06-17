@@ -4,20 +4,20 @@ GEM
     bluecloth (2.1.0)
     diff-lcs (1.1.2)
     git (1.2.5)
-    httparty (0.8.1)
-      multi_json
-      multi_xml
+    httparty (0.10.2)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
     jeweler (1.6.4)
       bundler (~> 1.0)
       git (>= 1.2.5)
       rake
     link_header (0.0.5)
     mocha (0.9.12)
-    multi_json (1.0.3)
-    multi_xml (0.4.1)
+    multi_json (1.13.1)
+    multi_xml (0.6.0)
     rake (0.9.2)
     rcov (0.9.9)
-    rdoc (3.8)
+    rdoc (3.9.5)
     rspec (2.6.0)
       rspec-core (~> 2.6.0)
       rspec-expectations (~> 2.6.0)
@@ -26,7 +26,7 @@ GEM
     rspec-expectations (2.6.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.6.0)
-    yard (0.6.8)
+    yard (0.9.14)
 
 PLATFORMS
   ruby
@@ -34,11 +34,14 @@ PLATFORMS
 DEPENDENCIES
   bluecloth (~> 2.1.0)
   bundler (~> 1.0)
-  httparty (~> 0.8.0)
+  httparty (~> 0.10.0)
   jeweler (~> 1.6.4)
   link_header (~> 0.0.5)
   mocha (~> 0.9.12)
   rcov
-  rdoc (~> 3.8.0)
+  rdoc (~> 3.9.5)
   rspec (~> 2.6.0)
-  yard (~> 0.6.0)
+  yard (~> 0.9.11)
+
+BUNDLED WITH
+   1.16.1
